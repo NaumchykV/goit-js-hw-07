@@ -1,13 +1,243 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-left: 24px;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin: 0;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
 ul {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 0;
+  padding: 16px;
 }
+
+li {
+}
+
+.category-items {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 328px;
+  height: 24px;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.item {
+  border-radius: 8px;
+  background: #f6f6fe;
+  margin: 24px;
+  padding: 0;
+}
+
+.item-animals {
+  width: 392px;
+  height: 266px;
+}
+
+.item-products {
+  width: 392px;
+  height: 216px;
+}
+
+.item-tech {
+  width: 392px;
+  height: 316px;
+}
+
 .gallery {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
   margin-top: 40px;
   gap: 20px;
+}
+
+#name-input {
+  width: 344px;
+  height: 40px;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-bottom: 16px;
+  padding: 0px 0px 0px 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.login-form {
+  display: table-caption;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-left: 28px;
+}
+
+.form-label {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.form-input {
+  width: 340px;
+  height: 40px;
+  padding-left: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form-input:hover {
+  border: 1px solid #000;
+}
+
+.form-input:active {
+  border: 1px solid #808080;
+}
+
+.form-button {
+  border: 0px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background-color: #4e75ff;
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.form-button:hover {
+  background-color: #6c8cff;
+}
+
+.widget {
+  display: grid;
+  justify-content: center;
+}
+
+.change-color {
+  border: 0px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+#controls {
+  border-radius: 8px;
+  padding: 32px;
+  width: 436px;
+  height: 40px;
+  background: #f6f6fe;
+  margin-bottom: 16px;
+  margin-left: 24px;
+}
+
+.controls-input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  background-color: transparent;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+}
+
+.btn-create {
+  border: 0px;
+  border-radius: 8px;
+  width: 120px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.btn-create:hover {
+  background-color: #6c8cff;
+}
+
+.btn-destroy {
+  border: 0px;
+  border-radius: 8px;
+  width: 120px;
+  height: 40px;
+  background-color: #ff4e4e;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.btn-destroy:hover {
+  background-color: #ff7070;
+}
+
+#boxes {
+  display: flex;
+  gap: 44px;
+  flex-wrap: wrap;
+  margin-left: 24px;
+  border-radius: 8px;
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-bottom: 32px;
+  width: 468px;
+  background-color: #f6f6fe;
 }
