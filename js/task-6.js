@@ -35,7 +35,8 @@ function handleCreate() {
 }
 
 function createBoxes(amount) {
-  boxes.innerHTML = '';
+  const fragments =
+    document.createDocumentFragment();
   for (let i = 0; i < amount; i++) {
     const box = document.createElement('div');
     let size = 30 + i * 10;
@@ -43,8 +44,10 @@ function createBoxes(amount) {
     box.style.height = `${size}px`;
     box.style.backgroundColor =
       getRandomHexColor();
-    boxesContainer.appendChild(box);
+    fragments.appendChild(box);
   }
+  boxesContainer.innerHTML = '';
+  boxesContainer.appendChild(fragments);
 }
 
 function destroyBoxes() {
